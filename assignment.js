@@ -3,10 +3,10 @@
 
 function convertToMile(inch){
 
-    return mile = inch * 0.0000157828;
+    return inch * 0.0000157828;
   }
-
-  console.log(convertToMile(100000)); //1.5782800000000001
+  let mile = convertToMile(100000);
+  console.log(mile); //1.5782800000000001
 
   //****************Solution no 2*********************//
 
